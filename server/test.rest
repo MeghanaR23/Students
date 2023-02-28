@@ -1,0 +1,24 @@
+POST http://127.0.0.1:5000/createstudent 
+content-type: application/json
+
+{
+    
+       "name": "Paresh Patil",
+            "major": "Maths",
+            "address": {
+                "state": "PB",
+                "zip": "140120",
+                "address_1": "516, Netaji Road",
+                "address_2": "Gurudwara",
+                "city": "Abiana"
+            }
+}
+###
+
+GET http://127.0.0.1:5000/listofstudents
+###
+
+GET http://127.0.0.1:5000/searchstudent/KA
+###
+
+
